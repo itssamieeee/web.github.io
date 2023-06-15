@@ -3,7 +3,25 @@ body{
     color: black;
 }
 
-
+nav{
+    height: 200px;
+    background-color: whitesmoke;
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+  a{
+    font-weight: bold;
+    font-size: 20px;
+    border-radius:50px;
+    background-color: tomato;
+    padding: 2px, 15px;
+    color: white;
+    width: 85px;
+    height: 25px;
+    text-align: center;
+  }
 
 /*<style type="text/css">< !-- SPAN {
     color: #555555;
