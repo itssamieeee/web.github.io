@@ -14,12 +14,14 @@ position: relative;
 }
 
 nav {
+  height: 100px;
+  margin: 20px;
   align-items: center;
   display: flex;
   justify-content: space-around;
 }
 
-a.menu {
+.menubutton a {
   font-size: 20px;
   border-radius: 20px;
   border: none;
