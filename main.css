@@ -3,7 +3,7 @@ body {
     color: black;
     margin: 0px;
 }
-header {
+.header {
   width: 342px;
   height: 78px;
   text-align: center;
