@@ -1,38 +1,38 @@
 body {
-    background-color: white;
-    color: black;
-    margin: 0px;
+  background-color: white;
+  color: black;
+  margin: 0px;
 }
 .header {
-  width: 342px;
-  height: 78px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+width: 342px;
+height: 78px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
 }
 
 nav {
-    height: 200px;
-    margin: 20px;
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-  }
+  height: 200px;
+  margin: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
 
-#menubutton {
-    font-size: 20px;
-    border-radius: 50px;
-    background-color: pink;
-    padding: 15px 32px;
-    color: black;
-    width: 85px;
-    height: 25px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-  }
-
+a {
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(18, 23, 17);
+  padding: 15px 32px;
+  color: wszhite;
+  width: 85px;
+  height: 25px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 
