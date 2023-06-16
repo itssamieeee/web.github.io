@@ -3,6 +3,11 @@ body {
   color: black;
   margin: 0px;
 }
+header {
+  margin : 50px;
+  text-align: center;
+}
+
 .header {
 width: 342px;
 height: 78px;
@@ -10,7 +15,8 @@ text-align: center;
 display: flex;
 align-items: center;
 justify-content: center;
-position: relative;
+background-position: top;
+background-repeat: no-repeat;
 }
 
 nav {
