@@ -74,3 +74,10 @@ h3 {
   font-size: 20px;
   color: #00264D;
 }
+iframe {
+  width: 500px;
+  height: 225px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
