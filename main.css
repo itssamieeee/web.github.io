@@ -21,7 +21,7 @@ nav {
   justify-content: space-around;
 }
 
-#menubutton a {
+.menu {
   font-size: 20px;
   border-radius: 20px;
   border: none;
