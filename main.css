@@ -1,8 +1,11 @@
 body{
     background-color: white;
     color: black;
+    margin: 0px;
 }
 header{
+  width: 342px;
+  height: 78px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -19,7 +22,7 @@ nav{
 
 a{
     font-size: 20px;
-    border-radius:50px;
+    border-radius: 50px;
     background-color: tomato;
     padding: 2px, 15px;
     color: white;
