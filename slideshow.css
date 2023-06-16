@@ -37,7 +37,7 @@
 
 
 .prev:hover, .next:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 .text {
