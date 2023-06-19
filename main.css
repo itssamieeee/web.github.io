@@ -74,10 +74,14 @@ h3 {
   font-size: 20px;
   color: #00264D;
 }
-iframe {
-  width: 500px;
-  height: 225px;
-  margin-bottom: 20px;
+.iframe-container {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.iframe-container iframe {
+  max-width: 500%;
+  max-height: 225%;
+}
+
