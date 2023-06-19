@@ -85,3 +85,146 @@ h3 {
   max-height: 225%;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #EFEFEF;
+}
+.slide-container{
+  /* max-width: 1120px; */
+  width: 100%;
+  padding: 40px 0;
+}
+.slide-content{
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.card{
+  border-radius: 2px;
+  background-color: ghostwhite;
+  width: 312px;
+  height: 500px;
+}
+.image-content,
+.card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+.image-content{
+  position: relative;
+  row-gap: 5px;
+  /* padding: 25px 0; */
+}
+.overlay{
+  position: absolute;
+  /* left: 0;
+  top: 0; */
+  height: 100%;
+  width: 100%;
+  /* background-color: #4070F4; */
+  border-radius: 25px 25px 0 25px;
+}
+/* .overlay::after{
+  border-radius: 0 25px 0 0;
+  background-color: #FFF;
+} */
+.card-image .card-img{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 8px 8px 0 0;
+  background: #FFF;
+  padding: 3px;
+}
+.card-image .card-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.name{
+  font-size: 25px;
+  font-weight: 700;
+  padding: 1px;
+  line-height: 24px;
+  text-align: center;
+  justify-content: center;
+}
+.title{
+    font-size: 18px;
+    font-weight: 200;
+    font-style: italic;
+    line-height: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: center;
+}
+.description{
+  font-size: 15px;
+  color: #707070;
+  text-align: center;
+  line-height: 24px;
+}
+.button{
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 8px 16px;
+  background-color: lightslategray;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:link, .button:visited, .button:active{
+    text-decoration: none;
+    font-size: 15px;
+}
+.button:hover{
+  background: lightgray;
+  text-decoration: underline;
+}
+
+.swiper-navBtn{
+  color: #020202;
+  transition: color 0.3s ease;
+}
+.swiper-navBtn:hover{
+  color: #0a0909;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  font-size: 35px;
+}
+.swiper-button-next{
+  right: 0;
+}
+.swiper-button-prev{
+  left: 0;
+}
+.swiper-pagination-bullet{
+  background-color: #070708;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  background-color: #020202;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content{
+    margin: 0 10px;
+  }
+  .swiper-navBtn{
+    display: none;
+  }
+}
