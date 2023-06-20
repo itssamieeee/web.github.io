@@ -92,8 +92,8 @@
   }
   
   .iframe-container iframe {
-    max-width: 500%;
-    max-height: 225%;
+    max-width: 50%;
+    max-height: 50%;
   }
   .slide-container{
      max-width: 1120px; 
