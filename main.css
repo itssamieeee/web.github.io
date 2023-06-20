@@ -31,15 +31,15 @@
   }
   
   
-  .menubutton {
+   nav {
     height: 100px;
-    margin: 20px;
+    margin: 80px auto;
     width: 100%;
     align-items: center;
     text-align: center;
     display: block;
+    position: relative;
     justify-content: center;
-    float: left;
   }
 
   .menubutton a {
@@ -47,21 +47,23 @@
     border-radius: 20px;
     border: none;
     background-color: rgb(18, 23, 17);
-    padding: 15px 32px;
+    padding: 10px 20px;
     color: white;
-    height: 25px;
+    height: 50px;
+    width: 120px;
     text-align: center;
     text-decoration: none;
+    align-items: center;
     cursor: pointer;
     overflow: hidden;
-    width: 100%;
+    display: inline-block;
+
   }
 
   .menubutton a:hover {
     background-color: green;
     color: black;
   }
-
   
   footer {
     text-align: center;
