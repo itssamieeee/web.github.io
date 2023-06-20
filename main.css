@@ -229,7 +229,7 @@
   
   @media screen and (max-width: 768px) {
     .slide-content{
-      margin: 0 10px;
+      margin: 30 10px;
     }
     .swiper-navBtn{
       display: none;
