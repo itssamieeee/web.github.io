@@ -110,8 +110,7 @@
     box-sizing: border-box; 
   }
   .slide-container{
-     max-width: 1120px; 
-    width: 100%;
+    max-width: 1120px; 
     height: 100%;
     padding: 40px 0;
   }
