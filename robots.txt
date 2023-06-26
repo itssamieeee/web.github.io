@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /http://j.maxmind.com/app/geoip.JavaScript
+Disallow: /http://dokimos.org/list/Apocrypha.jpg
+Disallow: /http://dokimos.org/list/main.css
+Disallow: /http://www.dokimos.org/gifts/main.css
+Disallow: /http://www.dokimos.org/new/spin.gif
+Disallow: /http://www.dokimos.org/list/main.css
+Disallow: /http://www.dokimos.org/gifts/Simple.png
+Disallow: /http://www.dokimos.org/ribbonvd.gif
+Disallow: /http://www.dokimos.org/list/MaverickChristians-bannerA.gif
+Disallow: /http://www.dokimos.org/home1.html
